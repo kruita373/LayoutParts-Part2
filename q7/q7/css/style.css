@@ -1,1 +1,35 @@
 @charset "UTF-8";
+.bubble{
+  position: relative;
+  width: 500px;
+  font-size: 16px;
+  line-height: 16px;
+  background: #fad296;
+  border: solid 5px #815a0a;
+  border-radius: 10px;
+  padding: 20px;
+}
+.bubble:before{
+  position: absolute;
+  top: 101%;
+  left: 10px;
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 25px solid #815a0a;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 25px solid transparent;
+}
+.bubble:after{
+  position: absolute;
+  top: 100%;
+  left: 15px;
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 20px solid #fad296;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+}

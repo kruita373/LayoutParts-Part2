@@ -12,7 +12,7 @@
 .bubble:before{
   position: absolute;
   top: 101%;
-  left: 10px;
+  left: 18px;
   content: "";
   width: 0;
   height: 0;
@@ -24,7 +24,7 @@
 .bubble:after{
   position: absolute;
   top: 100%;
-  left: 15px;
+  left: 23px;
   content: "";
   width: 0;
   height: 0;
